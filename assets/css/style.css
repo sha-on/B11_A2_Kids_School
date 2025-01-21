@@ -1,15 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-:root{
-    --main-color : #007bff;
+:root {
+  --main-color: #fea301;
+  --second-color: #01acfd;
+  --third-color: #05d4df;
+  --fourth-color: #5d58ef;
+  --fifth-linear: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  --sixth-linear: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  --seventh-linear: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  --eighth-color: #3cd8e8;
+  --nine-color: #95b226;
+  --ten-color: #5d58f0;
+  --stories-bg: linear-gradient(
+    0deg,
+    rgba(254, 163, 1, 0.3),
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  --font-logo: 32px;
+  --font-nav: 20px;
+  --font-hero: 56px;
+  --font-section: 46px;
+  --font-section-card: 24px;
+  --font-section-card-des: 15.09px;
+  --font-stories-card: 15.34px;
+  --font-stories-card-des: 13.34px;
+  --font-footer: 42.14px;
 }
-h1{
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: var(--main-color);
-    margin-bottom: 1.5rem;
+nav ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: var(--font-size);
 }
