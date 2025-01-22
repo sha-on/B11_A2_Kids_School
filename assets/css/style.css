@@ -9,6 +9,7 @@
   font-style: normal;
 }
 :root {
+  --logo-color: rgb(17, 17, 17);
   --main-color: #fea301;
   --second-color: #01acfd;
   --third-color: #05d4df;
@@ -49,16 +50,154 @@
   --font-stories-card-des: 13.34px;
   --font-footer: 42.14px;
 }
-nav ul {
+
+/* Shared styles Start */
+.d_flex {
   display: flex;
-  gap: 1rem;
-  justify-content: center;
+}
+.tdn {
+  text-decoration: none;
+}
+/* Shared styles End */
+
+/* Main Style Start */
+#MOBILE {
+  display: none;
+}
+.head {
+  padding: 10px 140px;
+}
+.nav {
+  justify-content: space-between;
+}
+.nav section {
   align-items: center;
 }
-nav ul li {
+.nav ul {
+  align-items: center;
+  gap: 32px;
+}
+.nav ul li {
   list-style: none;
 }
-nav ul li a {
-  text-decoration: none;
-  font-size: var(--font-size);
+.nav ul li a {
+  font-size: var(--font-nav);
+  font-weight: 500;
 }
+.logo {
+  gap: 11px;
+}
+.logo_title {
+  font-size: var(--font-logo);
+  color: var(--logo-color);
+  font-weight: 700;
+}
+#main {
+  padding: 10px 140px;
+  margin-top: 18px;
+}
+.main {
+  color: var(--main-color);
+}
+.second {
+  color: var(--second-color);
+}
+.third {
+  color: var(--third-color);
+}
+.fourth {
+  color: var(--fourth-color);
+}
+.btn {
+  border: none;
+  width: 197px;
+  padding: 10px 0;
+  border-radius: 12px;
+  font-size: var(--font-nav);
+}
+.Contact{
+  background: var(--main-color);
+  color: white;
+
+}
+.banner__content {
+  width: 640px;
+  display: grid;
+  gap: 24px;
+}
+.banner_title {
+  font-size: var(--font-hero);
+  font-weight: 700;
+  line-height: 61px;
+}
+.text_design {
+  color: var(--main-color);
+  font-weight: 700;
+}
+.text__design {
+  color: var(--second-color);
+  font-weight: 700;
+}
+.banner_text {
+  color: var(--logo-color);
+  font-size: var(--font-nav);
+  font-weight: 400;
+  line-height: 25px;
+}
+.enroll {
+  background: var(--logo-color);
+  color: white;
+}
+/* Main Style End */
+
+/* Responsive Design Styles Start */
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  .head {
+    padding: 12px 10px;
+    border-bottom: 0.5px solid rgb(254, 163, 1);
+  }
+  #WEB {
+    display: none;
+  }
+  #MOBILE {
+    display: block;
+  }
+  .phn_logo {
+    width: 46px;
+    height: 46px;
+  }
+  #MOBILE ul li {
+    list-style: none;
+  }
+  #MOBILE ul {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .head {
+    padding: 12px 10px;
+    border-bottom: 0.5px solid rgb(254, 163, 1);
+  }
+  #WEB {
+    display: none;
+  }
+  #MOBILE {
+    display: block;
+  }
+  .phn_logo {
+    width: 46px;
+    height: 46px;
+  }
+  #MOBILE ul li {
+    list-style: none;
+  }
+  #MOBILE ul {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Responsive Design Styles End */

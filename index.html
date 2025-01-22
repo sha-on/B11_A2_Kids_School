@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kids School</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Facilities</a></li>
-                <li><a href="#">Admission</a></li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <nav id="WEB" class="d_flex nav">
+        <section class="logo d_flex">
+          <img src="./assets/img/logo.png" alt="Kids School" />
+          <h2 class="logo_title">School</h2>
+        </section>
+
+        <ul class="d_flex">
+          <li><a href="#" class="tdn main">Home</a></li>
+          <li><a href="#" class="tdn second">About</a></li>
+          <li><a href="#" class="tdn third">Facilities</a></li>
+          <li><a href="#" class="tdn fourth">Admission</a></li>
+        </ul>
+
+        <section class="d_flex">
+          <button class="btn Contact">Contact</button>
+        </section>
+      </nav>
+
+      <nav id="MOBILE" class="d_flex">
+        <ul class="d_flex">
+          <li>
+            <img
+              src="./assets/img/logo.png"
+              class="phn_logo"
+              alt="Kids School"
+            />
+          </li>
+
+          <li>
+            <img src="./svg (1).png" class="icon" alt="" />
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <main></main>
+    <main id="main">
+      <section class="banner__content">
+        <h1 class="banner_title">
+          <span class="text_design">Empowering</span>
+          <br>
+          students from small age
+          <span class="text__design">towards vision</span>
+        </h1>
+        <p class="banner_text">
+          With the courage, Confidence, Creativity and Compassion to make their
+          Unique Contribution in a Diverse and Dynamic World.
+        </p>
+        <button class="enroll btn">Enroll Now</button>
+      </section>
+    </main>
 
     <footer></footer>
-</body>
+  </body>
 </html>
