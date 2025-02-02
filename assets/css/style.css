@@ -386,14 +386,16 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 19px;
 }
-.stories_view--btn{
+
+.stories_view--btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 80px;
   padding-bottom: 60px;
 }
-.stories_view-btn{
+
+.stories_view-btn {
   width: 197px;
   border: none;
   border-radius: 12px;
@@ -403,6 +405,7 @@
   padding: 10px 0;
   cursor: pointer;
 }
+
 .right__card {
   position: relative;
   border: none;
@@ -497,10 +500,12 @@
   list-style: none;
 
 }
+
 .footer__item ul {
   display: grid;
   gap: 20px;
 }
+
 .footer__item ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -516,21 +521,25 @@
   line-height: 30px;
   margin-bottom: 32px;
 }
-.column__title{
+
+.column__title {
   color: rgb(255, 255, 255);
-font-size: 26px;
-font-weight: 700;
-line-height: 26px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
 }
-.icon_items{
+
+.icon_items {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.icon_items{
+
+.icon_items {
   margin-top: 32px;
 }
-.footer_img{
+
+.footer_img {
   width: 82px;
 }
 
@@ -739,56 +748,60 @@ line-height: 26px;
     gap: 11px;
   }
 
-  .footer__container{
+  .footer__container {
     padding: 60px 12px 60px 21px;
     margin-top: 0;
     display: grid;
     justify-items: start;
-    grid-template-columns: repeat(1 , 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
+
   .footer__item {
     display: flex;
     flex-direction: column;
   }
-  
+
   .logo__title {
     display: flex;
     align-items: center;
     gap: 10px;
   }
-  
+
   .footer__title {
     color: rgb(255, 255, 255);
-font-size: 35.73px;
-font-weight: 700;
-line-height: 33.5px;
+    font-size: 35.73px;
+    font-weight: 700;
+    line-height: 33.5px;
   }
-  
+
   .footer__description {
     color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
   }
-  .column_title{
+
+  .column_title {
     color: rgb(255, 255, 255);
-font-size: 20.35px;
-font-weight: 600;
-line-height: 25px;
+    font-size: 20.35px;
+    font-weight: 600;
+    line-height: 25px;
   }
-  .footer__item ul li a{
+
+  .footer__item ul li a {
     color: rgb(255, 255, 255);
-font-size: 16.96px;
-font-weight: 500;
-line-height: 21px;
+    font-size: 16.96px;
+    font-weight: 500;
+    line-height: 21px;
   }
-  .column__title{
+
+  .column__title {
     margin-top: 31px;
     color: rgb(255, 255, 255);
-font-size: 22.04px;
-font-weight: 700;
-line-height: 22.04px;
+    font-size: 22.04px;
+    font-weight: 700;
+    line-height: 22.04px;
   }
 }
 
