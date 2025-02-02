@@ -16,32 +16,24 @@
   --second-color: #01acfd;
   --third-color: #05d4df;
   --fourth-color: #5d58ef;
-  --fifth-linear: linear-gradient(
-      180deg,
+  --fifth-linear: linear-gradient(180deg,
       rgb(222, 245, 255),
-      rgba(255, 255, 255, 0) 40%
-    ),
+      rgba(255, 255, 255, 0) 40%),
     rgb(255, 255, 255);
-  --sixth-linear: linear-gradient(
-      180deg,
+  --sixth-linear: linear-gradient(180deg,
       rgb(255, 244, 220),
-      rgba(255, 255, 255, 0) 40%
-    ),
+      rgba(255, 255, 255, 0) 40%),
     rgb(255, 255, 255);
-  --seventh-linear: linear-gradient(
-      180deg,
+  --seventh-linear: linear-gradient(180deg,
       rgb(238, 225, 255),
-      rgba(255, 255, 255, 0) 40%
-    ),
+      rgba(255, 255, 255, 0) 40%),
     rgb(255, 255, 255);
   --eighth-color: #3cd8e8;
   --nine-color: #95b226;
   --ten-color: #5d58f0;
-  --stories-bg: linear-gradient(
-    0deg,
-    rgba(254, 163, 1, 0.3),
-    rgba(255, 255, 255, 0.3) 100%
-  );
+  --stories-bg: linear-gradient(0deg,
+      rgba(254, 163, 1, 0.3),
+      rgba(255, 255, 255, 0.3) 100%);
   --font-logo: 32px;
   --font-nav: 20px;
   --font-hero: 56px;
@@ -137,9 +129,11 @@
 #main {
   padding: 10px 140px;
 }
+
 .hero_mt {
   margin-top: 18px;
 }
+
 .hero__container {
   display: grid;
   grid-template-rows: 1fr;
@@ -218,29 +212,23 @@
 }
 
 .item__bg {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgb(222, 245, 255),
-      rgba(255, 255, 255, 0) 40%
-    ),
+      rgba(255, 255, 255, 0) 40%),
     rgb(255, 255, 255);
 }
 
 .item__bg_II {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgb(255, 244, 220),
-      rgba(255, 255, 255, 0) 40%
-    ),
+      rgba(255, 255, 255, 0) 40%),
     rgb(255, 255, 255);
 }
 
 .item__bg_III {
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgb(238, 225, 255),
-      rgba(255, 255, 255, 0) 40%
-    ),
+      rgba(255, 255, 255, 0) 40%),
     rgb(255, 255, 255);
 }
 
@@ -285,6 +273,7 @@
 .link__III {
   color: rgb(135, 0, 255);
 }
+
 .curriculum__btn {
   display: flex;
   justify-content: center;
@@ -292,7 +281,8 @@
   gap: 10px;
   margin-top: 80px;
 }
-.curriculum__btn > div {
+
+.curriculum__btn>div {
   background: var(--main-color);
   width: 60px;
   height: 60px;
@@ -303,11 +293,13 @@
   border-radius: 50%;
   color: white;
 }
+
 .stories__container {
   background-position: top left;
   background: url(../img/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
+
 .stories__title {
   font-size: var(--font-section);
   font-weight: 700;
@@ -315,12 +307,14 @@
   margin-top: 60px;
   margin-bottom: 80px;
 }
+
 .stories__items {
   position: relative;
   display: grid;
   gap: 28.29px;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .story__item {
   /* padding-bottom: 34px; */
   height: 100%;
@@ -329,12 +323,14 @@
   border-radius: 16px;
   background: rgb(255, 255, 255);
 }
+
 .story__img img {
   width: 100%;
   object-fit: cover;
   border: none;
   border-radius: 16px 16px 0px 0px;
 }
+
 .story__btn {
   max-width: 174.51px;
   position: relative;
@@ -346,22 +342,26 @@
   top: -34px;
   margin-left: 38px;
 }
+
 .story__btn-bg {
   background: rgb(60, 216, 232);
 }
-.story__btn > .story__date {
+
+.story__btn>.story__date {
   color: rgb(255, 255, 255);
   font-size: 15.34px;
   font-weight: 500;
   line-height: 28.76px;
 }
+
 .story__content {
   height: 294px;
   position: relative;
   top: -59px;
   z-index: 0;
 }
-.story__content > h4 {
+
+.story__content>h4 {
   color: rgb(0, 0, 0);
   font-size: 24px;
   font-weight: 700;
@@ -369,7 +369,8 @@
   padding-top: 10%;
   padding-left: 38px;
 }
-.story__content > p {
+
+.story__content>p {
   color: rgb(102, 102, 102);
   font-size: 15.34px;
   font-weight: 500;
@@ -378,11 +379,13 @@
   padding-left: 38px;
   padding-right: 68px;
 }
+
 .story__item-right {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 19px;
 }
+
 .right__card {
   position: relative;
   border: none;
@@ -404,33 +407,113 @@
   border-radius: 16px 16px 0px 0px;
   border: none;
 }
+
 .right-date_btn-bg {
   background: #95b226;
 }
+
 .right-date_btn-bg-II {
   background: #5d58f0;
 }
-.right-date_btn > .story__date {
+
+.right-date_btn>.story__date {
   color: rgb(255, 255, 255);
   font-size: 15.34px;
   font-weight: 500;
   line-height: 28.76px;
 }
+
 .right__content {
   padding-top: 23px;
   padding-right: 55px;
   padding-bottom: 33px;
   padding-left: 38px;
 }
+
 .right-card__title {
   color: rgb(0, 0, 0);
   font-size: 15.34px;
   font-weight: 700;
   line-height: 28.76px;
 }
+
 .display__none {
   display: none;
 }
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+  background: #01ACFD;
+  padding: 123px 228px 174px 140px;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__title {
+  color: rgb(255, 255, 255);
+  font-size: 42.14px;
+  font-weight: 700;
+  line-height: 39.51px;
+}
+
+.footer__description {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 35px;
+}
+
+.footer__item ul li {
+  list-style: none;
+
+}
+.footer__item ul {
+  display: grid;
+  gap: 20px;
+}
+.footer__item ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.column_title {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.column__title{
+  color: rgb(255, 255, 255);
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+}
+.icon_items{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon_items{
+  margin-top: 32px;
+}
+
 
 /* Main Style End */
 
@@ -504,7 +587,7 @@
     text-align: center;
   }
 
-  .hero__left > div {
+  .hero__left>div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -525,37 +608,45 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .curriculum__btn div {
     display: none;
     margin-top: 80px;
     margin-bottom: 60px;
   }
+
   .stories__container {
     margin-top: 40px;
     margin-bottom: 20px;
   }
+
   .story__item {
     display: none;
   }
+
   .stories__title {
     margin-top: -10%;
     margin-bottom: 15%;
   }
+
   .story__item-right {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
 
     /* gap: 20px; */
   }
+
   .right__card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
     width: 173.09px;
     height: 179.59px;
   }
+
   .right__card-none {
     display: block;
   }
+
   .story__btn {
     display: flex;
     justify-content: center;
@@ -564,29 +655,34 @@
     height: 24px;
     margin: 0 0 0 23px;
   }
-  .story__btn > .story__date {
+
+  .story__btn>.story__date {
     color: rgb(255, 255, 255);
     font-size: 9.13px;
     line-height: 17.12px;
     text-wrap: nowrap;
   }
+
   .right-card__title {
     color: rgb(0, 0, 0);
     font-size: 9.13px;
     font-weight: 700;
     line-height: 17.12px;
   }
+
   .right__content {
     padding: 14px 32px 19px 22px;
     position: relative;
     top: -20px;
   }
+
   .right__card {
     position: relative;
     border: none;
     border-radius: 16px;
     background: rgb(255, 255, 255);
   }
+
   .story__btn {
     position: relative;
     top: 6px;
@@ -597,27 +693,32 @@
     top: -70%;
     margin: 0 auto;
   }
+
   .right-card__title {
     color: rgb(0, 0, 0);
     font-size: 9.13px;
     font-weight: 700;
     line-height: 17.12px;
   }
+
   .right__card-none {
     position: relative;
     border: none;
     border-radius: 16px;
     background: rgb(255, 255, 255);
   }
-  .right__card-none > .story__btn{
+
+  .right__card-none>.story__btn {
     position: relative;
     top: -20px;
   }
-  .story__item-right{
+
+  .story__item-right {
 
     gap: 11px;
   }
-  .stories__items{
+
+  .stories__items {
     padding: 0 10px;
   }
 }
