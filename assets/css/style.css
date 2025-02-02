@@ -295,6 +295,7 @@
 }
 
 .stories__container {
+  padding: 0 140px;
   background-position: top left;
   background: url(../img/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -385,7 +386,23 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 19px;
 }
-
+.stories_view--btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 60px;
+}
+.stories_view-btn{
+  width: 197px;
+  border: none;
+  border-radius: 12px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
 .right__card {
   position: relative;
   border: none;
@@ -513,6 +530,9 @@ line-height: 26px;
 .icon_items{
   margin-top: 32px;
 }
+.footer_img{
+  width: 82px;
+}
 
 
 /* Main Style End */
@@ -617,7 +637,8 @@ line-height: 26px;
 
   .stories__container {
     margin-top: 40px;
-    margin-bottom: 20px;
+
+    padding: 0 16px;
   }
 
   .story__item {
@@ -718,8 +739,56 @@ line-height: 26px;
     gap: 11px;
   }
 
-  .stories__items {
-    padding: 0 10px;
+  .footer__container{
+    padding: 60px 12px 60px 21px;
+    margin-top: 0;
+    display: grid;
+    justify-items: start;
+    grid-template-columns: repeat(1 , 1fr);
+  }
+  .footer__item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer__title {
+    color: rgb(255, 255, 255);
+font-size: 35.73px;
+font-weight: 700;
+line-height: 33.5px;
+  }
+  
+  .footer__description {
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+margin-bottom: 32px;
+  }
+  .column_title{
+    color: rgb(255, 255, 255);
+font-size: 20.35px;
+font-weight: 600;
+line-height: 25px;
+  }
+  .footer__item ul li a{
+    color: rgb(255, 255, 255);
+font-size: 16.96px;
+font-weight: 500;
+line-height: 21px;
+  }
+  .column__title{
+    margin-top: 31px;
+    color: rgb(255, 255, 255);
+font-size: 22.04px;
+font-weight: 700;
+line-height: 22.04px;
   }
 }
 
